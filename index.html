@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive-Flowers</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
-    
+<body class="max-md:ml-4 max-md:mr-4">
+    <!-- header-section -->
+     <header class="max-w-6xl m-auto">
+        <div class="header-container flex justify-between mt-5 items-center flex-row-reverse">
+            <ul class="navbar flex gap-12">
+                <li class=""><a href="#" class="text-gray-800 font-bold max-md:hidden">Home</a></li>
+                <li><a href="#" class="text-gray-500 max-md:hidden">Shop</a></li>
+                <li><a href="#" class="text-gray-500 max-md:hidden">About Us</a></li>
+                <li><a href="#"><span><i class="fa-solid fa-cart-shopping"></i></span> <span>Cart</span> <span>($56)</span></a></li>
+            </ul>
+            <div class="header-logo">
+                <img src="./assets/logo.png" alt="" class="max-md:w-16">
+            </div>
+        </div>
+     </header>
+     <main>
+        <!-- banner-section -->
+        <section class="max-w-6xl m-auto">
+            <div class="banner-container flex items-end mt-28 max-md:flex-col-reverse max-md:items-start max-md:gap-7 max-md:mt-7">
+                <div class="banner-text-secction flex-1/2">
+                    <h1 class="banner-title text-6xl leading-16 max-md:text-2xl max-md:leading-8">
+                        ALWAYS <span class="text-orange-600">FRESH</span> <br><span class="text-orange-600">FLOWERS</span>
+                    </h1>
+                    <p class="banner-subtitle mt-3 text-gray-500 max-md:text-sm">
+                        Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion. 
+                    </p>
+                </div>
+                <div class="banner-img-section flex-1/2">
+                    <img src="./assets/hero-flower.png" alt="">
+                </div>
+            </div>
+        </section>
+     </main>
 </body>
 </html>

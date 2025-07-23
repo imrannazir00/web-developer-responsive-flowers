@@ -1,0 +1,15 @@
+/* tailwind-css */
+@import "tailwindcss"
+
+/* universel-sector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* free-style */
+img{
+    max-width: 100%;
+}
