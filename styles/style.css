@@ -12,6 +12,14 @@ body{
     background: #F5F8FF;
 }
 
+/* font-family */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+}
 /* free-style */
 img{
     max-width: 100%;
@@ -22,7 +30,7 @@ img{
 
 /* flower-plants-lover-section */
 .plants-title{
-    max-width: 24rem;
+    max-width: 24.10rem;
 }
 .trusted-img{
  bottom: 27.90rem;
@@ -56,3 +64,12 @@ img{
     height: 26.25rem;
     border-radius: 1rem;
 }
+
+/* <!--color-bunch-section--> */
+.color-bunch-section{
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
