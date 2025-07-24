@@ -1,45 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive-Flowers</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body class="max-md:ml-4 max-md:mr-4">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="max-md:ml-4 max-md:mr-4">
     <!-- header-section -->
-     <header class="max-w-6xl m-auto">
-        <div class="header-container flex justify-between mt-5 items-center flex-row-reverse">
-            <ul class="navbar flex gap-12">
-                <li class=""><a href="#" class="text-gray-800 font-bold max-md:hidden">Home</a></li>
-                <li><a href="#" class="text-gray-500 max-md:hidden">Shop</a></li>
-                <li><a href="#" class="text-gray-500 max-md:hidden">About Us</a></li>
-                <li><a href="#"><span><i class="fa-solid fa-cart-shopping"></i></span> <span>Cart</span> <span>($56)</span></a></li>
-            </ul>
-            <div class="header-logo">
-                <img src="./assets/logo.png" alt="" class="max-md:w-16">
-            </div>
+    <header class="max-w-6xl m-auto">
+      <div
+        class="header-container flex justify-between mt-5 items-center flex-row-reverse"
+      >
+        <ul class="navbar flex gap-12">
+          <li class="">
+            <a href="#" class="text-gray-800 font-bold max-md:hidden">Home</a>
+          </li>
+          <li><a href="#" class="text-gray-500 max-md:hidden">Shop</a></li>
+          <li><a href="#" class="text-gray-500 max-md:hidden">About Us</a></li>
+          <li>
+            <a href="#"
+              ><span><i class="fa-solid fa-cart-shopping"></i></span>
+              <span>Cart</span> <span>($56)</span></a
+            >
+          </li>
+        </ul>
+        <div class="header-logo">
+          <img src="./assets/logo.png" alt="" class="max-md:w-16" />
         </div>
-     </header>
-     <main>
-        <!-- banner-section -->
-        <section class="max-w-6xl m-auto">
-            <div class="banner-container flex items-end mt-28 max-md:flex-col-reverse max-md:items-start max-md:gap-7 max-md:mt-7">
-                <div class="banner-text-secction flex-1/2">
-                    <h1 class="banner-title text-6xl leading-16 max-md:text-2xl max-md:leading-8">
-                        ALWAYS <span class="text-orange-600">FRESH</span> <br><span class="text-orange-600">FLOWERS</span>
-                    </h1>
-                    <p class="banner-subtitle mt-3 text-gray-500 max-md:text-sm">
-                        Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion. 
-                    </p>
-                </div>
-                <div class="banner-img-section flex-1/2">
-                    <img src="./assets/hero-flower.png" alt="">
-                </div>
+      </div>
+    </header>
+
+    <!-- main-section -->
+    <main>
+      <!-- banner-section -->
+      <section class="max-w-6xl m-auto">
+        <div
+          class="banner-container flex items-end mt-28 max-md:flex-col-reverse max-md:items-start max-md:gap-7 max-md:mt-7"
+        >
+          <div class="banner-text-secction flex-1/2">
+            <h1
+              class="banner-title text-6xl font-bold leading-16 max-md:text-2xl max-md:leading-8"
+            >
+              ALWAYS <span class="text-orange-600">FRESH</span> <br /><span
+                class="text-orange-600"
+                >FLOWERS</span
+              >
+            </h1>
+            <p
+              class="banner-subtitle mt-3 text-2xl text-gray-500 max-md:text-sm"
+            >
+              Indulge your senses with the beauty and fragrance of <br />
+              our fresh flower shop. From classic roses to exotic <br />
+              blooms, we offer a wide variety of fresh flowers that <br />
+              are perfect for any occasion.
+            </p>
+          </div>
+          <div class="banner-img-section flex-1/2">
+            <img src="./assets/hero-flower.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- card-section -->
+      <section class="max-w-6xl m-auto text-center mt-28 mb-52 max-md:mt-16 max-md:mb-10">
+        <div class="card-section">
+          <div class="card-text-section text-center">
+            <h2 class="plants-title text-5xl m-auto font-bold max-md:text-2xl">
+              <span class="text-orange-500">Our</span> Plants
+            </h2>
+            <p class="card-subtitle mt-3 text-2xl w-4xl m-auto text-gray-500 max-md:text-sm max-md:w-80 ">
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From
+              classic roses to exotic blooms, we offer a wide variety of fresh.
+            </p>
+          </div>
+          <div class="card-container mt-12 grid grid-cols-4 gap-6 max-md:grid-cols-2 max-md:mt-7">
+            <div class="card max-w-72 overflow-hidden">
+              <img src="./assets/sample-flower-image.png" alt="" />
+              <h5 class="card-title text-2xl font-medium mt-7 max-md:text-sm ">Lily Blossom</h5>
+              <h5 class="card-title text-2xl font-bold mt-3 mb-7 max-md:text-sm max-md:mt-0 ">20 USD</h5>
+              <button class="card-btn bg-amber-600 font text-white w-64 h-12 max-md:w-44 max-md:h-10">
+                ADD TO CART
+              </button>
             </div>
-        </section>
-     </main>
-</body>
+            <div class="card max-w-72 overflow-hidden">
+              <img src="./assets/sample-flower-image.png" alt="" />
+              <h5 class="card-title text-2xl font-medium mt-7 max-md:text-sm ">Lily Blossom</h5>
+              <h5 class="card-title text-2xl font-bold mt-3 mb-7 max-md:text-sm max-md:mt-0 ">20 USD</h5>
+              <button class="card-btn bg-amber-600 font text-white w-64 h-12 max-md:w-44 max-md:h-10">
+                ADD TO CART
+              </button>
+            </div>
+            <div class="card max-w-72 overflow-hidden">
+              <img src="./assets/sample-flower-image.png" alt="" />
+              <h5 class="card-title text-2xl font-medium mt-7 max-md:text-sm ">Lily Blossom</h5>
+              <h5 class="card-title text-2xl font-bold mt-3 mb-7 max-md:text-sm max-md:mt-0 ">20 USD</h5>
+              <button class="card-btn bg-amber-600 font text-white w-64 h-12 max-md:w-44 max-md:h-10">
+                ADD TO CART
+              </button>
+            </div>
+            <div class="card max-w-72 overflow-hidden">
+              <img src="./assets/sample-flower-image.png" alt="" />
+              <h5 class="card-title text-2xl font-medium mt-7 max-md:text-sm ">Lily Blossom</h5>
+              <h5 class="card-title text-2xl font-bold mt-3 mb-7 max-md:text-sm max-md:mt-0 ">20 USD</h5>
+              <button class="card-btn bg-amber-600 font text-white w-64 h-12 max-md:w-44 max-md:h-10">
+                ADD TO CART
+              </button>
+            </div>
+            <div class="card max-w-72 overflow-hidden">
+              <img src="./assets/sample-flower-image.png" alt="" />
+              <h5 class="card-title text-2xl font-medium mt-7 max-md:text-sm ">Lily Blossom</h5>
+              <h5 class="card-title text-2xl font-bold mt-3 mb-7 max-md:text-sm max-md:mt-0 ">20 USD</h5>
+              <button class="card-btn bg-amber-600 font text-white w-64 h-12 max-md:w-44 max-md:h-10">
+                ADD TO CART
+              </button>
+            </div>
+            <div class="card max-w-72 overflow-hidden">
+              <img src="./assets/sample-flower-image.png" alt="" />
+              <h5 class="card-title text-2xl font-medium mt-7 max-md:text-sm ">Lily Blossom</h5>
+              <h5 class="card-title text-2xl font-bold mt-3 mb-7 max-md:text-sm max-md:mt-0 ">20 USD</h5>
+              <button class="card-btn bg-amber-600 font text-white w-64 h-12 max-md:w-44 max-md:h-10">
+                ADD TO CART
+              </button>
+            </div>
+            <div class="card max-w-72 overflow-hidden">
+              <img src="./assets/sample-flower-image.png" alt="" />
+              <h5 class="card-title text-2xl font-medium mt-7 max-md:text-sm ">Lily Blossom</h5>
+              <h5 class="card-title text-2xl font-bold mt-3 mb-7 max-md:text-sm max-md:mt-0 ">20 USD</h5>
+              <button class="card-btn bg-amber-600 font text-white w-64 h-12 max-md:w-44 max-md:h-10">
+                ADD TO CART
+              </button>
+            </div>
+            <div class="card max-w-72 overflow-hidden">
+              <img src="./assets/sample-flower-image.png" alt="" />
+              <h5 class="card-title text-2xl font-medium mt-7 max-md:text-sm ">Lily Blossom</h5>
+              <h5 class="card-title text-2xl font-bold mt-3 mb-7 max-md:text-sm max-md:mt-0 ">20 USD</h5>
+              <button class="card-btn bg-amber-600 font text-white w-64 h-12 max-md:w-44 max-md:h-10">
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- flower-plants-lover-section -->
+       <section class="max-w-6xl m-auto mb-52 max-md:mt-16 max-md:mb-10">
+        <div class="flower-plants-container grid grid-cols-2 gap-15 items-center max-md:grid-cols-1 max-md:gap-7 ">
+            <div class="flower-plants-img-section relative">
+                <img src="./assets/flower-store.png" alt="">
+            <img src="./assets/trusted-badge.png" alt="" class="trusted-img h-72 absolute max-md:hidden">
+            </div>
+            <div class="flower-plants-text-section">
+                <h1 class="plants-title text-5xl font-bold max-md:text-2xl">
+                    Flower & Plants Lover
+                </h1>
+                <ul class="plants-sub-title ">
+                    <li class="plants-sub list-disc text-2xl mt-5 ml-7 mb-5 text-gray-500 max-md:text-sm max-md:ml-4 max-md:max-w-96">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li class="plants-sub list-disc text-2xl mt-5 ml-7 mb-5 text-gray-500 max-md:text-sm max-md:ml-4 max-md:max-w-96">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li class="plants-sub list-disc text-2xl mt-5 ml-7 mb-5 text-gray-500 max-md:text-sm max-md:ml-4 max-md:max-w-96">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                </ul>
+            </div>
+        </div>   
+       </section>
+       <section class="max-w-6xl m-auto mb-52 max-md:mt-16 max-md:mb-10">
+        <div class="latest-deals-container">
+          <div class="deals-text-section text-center mb-32 max-md:mb-12 ">
+            <h1 class="deals-title font-bold text-5xl max-md:text-2xl">
+              <span class="text-orange-600">Latest</span>  Deals
+            </h1>
+            <p class="deals-subtitle mt-3 text-2xl w-4xl m-auto text-gray-500 max-md:text-sm max-md:w-80">
+              Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+            </p>
+          </div>
+        </div>
+       </section>
+    </main>
+  </body>
 </html>
