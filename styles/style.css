@@ -8,10 +8,16 @@
     box-sizing: border-box;
     
 }
+body{
+    background: #F5F8FF;
+}
 
 /* free-style */
 img{
     max-width: 100%;
+}
+.line-h{
+    line-height: 1.25rem;
 }
 
 /* flower-plants-lover-section */
@@ -27,3 +33,26 @@ img{
     word-spacing: 0.60rem;
 }
 
+/* <!-- latest-deals-section --> */
+.bloom-plants{
+    background-image:linear-gradient(#00000066),url(../assets/deal-bloom.png);
+    background-size:cover;
+    height:12.50rem;  
+    border-radius: 1rem;
+    width: 24.875rem;  
+}
+.ana-plants{
+    background-image:linear-gradient(#00000066),url(../assets/deal-ana.png);
+    background-size:cover;
+    height:12.50rem;   
+    margin-top: 1.25rem;
+    border-radius: 1rem;
+    width: 24.875rem;   
+}
+.zabo-plants{
+    background-image:linear-gradient(#00000066), url(../assets/deal-zabo.png);
+    background-size: cover;
+    width: 46.875rem;   
+    height: 26.25rem;
+    border-radius: 1rem;
+}
